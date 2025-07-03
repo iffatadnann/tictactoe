@@ -21,17 +21,20 @@ Polymorphism
 # 🧠 OOP Concepts Applied
 This project demonstrates all four pillars of OOP in C++:
 
-✅ 1. Abstraction
+# ✅ 1. Abstraction:
+
 The game hides complex internal logic using well-defined classes like GameBoard, Player, and TicTacToe.
 
 The user interacts with the game through a simple interface without needing to understand the internal logic.
 
-✅ 2. Encapsulation
+# ✅ 2. Encapsulation:
+
 Each class encapsulates its data and behavior.
 
 For example, GameBoard manages the board state, move logic, and win/draw checking—all hidden behind public methods like placeMove(), checkForWins(), etc.
 
-✅ 3. Inheritance
+# ✅ 3. Inheritance:
+
 The abstract Player class provides a common interface for both HumanPlayer and AIPlayer, allowing polymorphic behavior in the game loop.
 
 class Player
@@ -40,7 +43,8 @@ public:
     virtual void makeMove(GameBoard &board) = 0;
 };
 
-✅ 4. Polymorphism
+# ✅ 4. Polymorphism:
+
 Run-time polymorphism is achieved using virtual functions and smart pointers (unique_ptr<Player>) to handle dynamic dispatch between human and AI players seamlessly.
 
 currentPlayer->makeMove(board);
