@@ -94,5 +94,16 @@ Concepts: OOP, Minimax Algorithm, Alpha-Beta Pruning
 
 Compiler: Any standard C++ compiler (G++, Clang++, etc.)
 
+# 📸 Preview
+
+![image](https://github.com/user-attachments/assets/e5920df5-49ed-4bb5-9b32-2fd5d012930a)
+
+![image](https://github.com/user-attachments/assets/b7a2077e-0700-45b0-a80b-0bee679d1169)
+
+![image](https://github.com/user-attachments/assets/78cf9412-5405-4323-a82c-b42ae81f150f)
+
+
+
+
 # 🙌 Contributions
 Feel free to fork the repository and suggest improvements or enhancements via pull requests!
